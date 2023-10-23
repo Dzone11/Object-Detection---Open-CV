@@ -10,3 +10,6 @@ This is a brief description of the project that I have done on object detection 
 - I used the network object's setInput and forward functions to feed the input blob to the model and get the output detections, a list of bounding boxes, class labels, and confidence scores for each detected object.
 - I used the cv2.rectangle and cv2.putText functions to draw the bounding boxes and labels on the original images or frames and displayed them using cv2.imshow or saved them using cv2.imwrite or cv2.VideoWriter.
 - I also used the cv2.VideoCapture functions to capture video from a webcam and apply the same steps as above to perform real-time object detection.
+  
+You can choose use your own jpeg and mp4 file for detection.
+I have also uploaded the files that i have used.
